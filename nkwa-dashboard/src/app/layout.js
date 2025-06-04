@@ -1,3 +1,4 @@
+// In your layout.js or _document.js (Next.js)
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -20,8 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}
