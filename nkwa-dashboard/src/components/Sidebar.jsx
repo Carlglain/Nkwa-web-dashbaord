@@ -64,7 +64,7 @@ export default function Sidebar({ onClose }) {
         </div>
       </nav>
 
-      <div className="border-b pb-50 border-[#1F1F2E]"></div>
+      <div className="border-b mt-4 pb-10 border-[#1F1F2E]"></div>
       <div className="fix mt-2 bg-[#1E1E1E] p-3 rounded-lg flex gap-3 items-start mr-3">
         <Zap className="text-purple-400 mt-1" />
         <div>
