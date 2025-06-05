@@ -40,7 +40,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Carlglain/Nkwa-web-dashbaord
-cd nkwadashboard
+cd nkwa-dashboard
 npm install
 npm run dev
 ```
